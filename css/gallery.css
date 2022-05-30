@@ -1,0 +1,35 @@
+#gallery-top{
+    background-image: url(../img/241965773_3624599227765949_5950738608792627741_n.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+}
+.hotel-menu .navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(223, 219, 18);
+}
+.hotel-menu .navbar-light .navbar-nav .nav-link {
+    color: #A98551;
+    text-transform: uppercase;
+}
+.room-slide {
+    padding: 150px 0;
+}
+.stickyTop {
+    position: fixed;
+    top: 0;
+    background-color: #222222;
+    width: 100%;
+    z-index: 100;
+    border-bottom: 1px solid #A98551;
+}
+#footer {
+    background-color: #222222;
+}
+#footer .nav-link {
+
+    color: #fff;
+
+}

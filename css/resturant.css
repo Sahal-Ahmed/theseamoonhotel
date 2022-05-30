@@ -1,0 +1,161 @@
+.resturant {
+    width: 40rem;
+}
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+   
+}
+.menu{
+    border-bottom: 1px dashed #A98551;
+    padding: 10px 0;
+}
+.menu span{
+    color: #A98551;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.food-items {
+    padding: 10px 0;
+}
+#food-menu{
+    background-color: #222222;
+    color: #fff;
+}
+.star-icons i{
+    color: #A98551;
+}
+.titles-ex h5{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #666666;
+    font-style: initial;
+    letter-spacing: 6px;
+}
+.titles-ex h3{
+    text-transform: capitalize;
+    font-size: 40px;
+    color: #222222;
+    font-style: normal;
+    padding-bottom: 10px;
+}
+.titles h5{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #A98551;
+    font-style:initial;
+    letter-spacing: 6px;
+}
+
+.titles h3 {
+    text-transform: capitalize;
+    font-size: 40px;
+    color: #fff;
+    font-style: initial;
+}
+#customer-review{
+    background: url(../img/GoldSmooth_HotelRoom_04_00.jpgAE387640-8ED2-4672-B02A-44DA675F5573Large.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.titles-comment h5{
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #fff;
+    font-style: initial;
+    letter-spacing: 6px;
+}
+.titles-comment h3 {
+    text-transform: capitalize;
+    font-size: 40px;
+    color: #fff;
+    font-style: initial;
+    
+    
+}
+.line {
+    width: 60px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2) !important;
+    margin-bottom: 10px;
+}
+.client img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.stickyTop {
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    width: 100%;
+    z-index: 100;
+    border-bottom: 1px solid #A98551;
+}
+#food-menu .nav-link {
+    display: block;
+    padding: 0.5rem 4rem;
+    color: #fff;
+    text-decoration: none;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out;
+}
+#food-menu .nav-item .nav-link .active{
+    color: #A98551;
+    border: 1px solid #A98551;
+}
+#food-menu .nav-link:hover{
+    color: #A98551;
+    border: 1px solid #A98551;
+}
+#footer {
+    background-color: #222222;
+}
+.slide {
+
+    img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+}
+
+// Styling the default Slick dots
+
+.slick-dots {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 1rem 0;
+
+    list-style-type: none;
+
+    li {
+        margin: 0 0.25rem;
+    }
+
+    button {
+        display: block;
+        width: 1rem;
+        height: 1rem;
+        padding: 0;
+
+        border: none;
+        border-radius: 100%;
+        background-color: orange;
+
+        text-indent: -9999px;
+    }
+
+    li.slick-active button {
+        background-color: red;
+    }
+
+}
+.resturant-pic .carousel-inner .carousel-item img{
+    height: 500px;
+}

@@ -1,0 +1,143 @@
+    .hotel-menu .navbar-light .navbar-nav .nav-link.active,
+    .navbar-light .navbar-nav .show>.nav-link {
+        color: rgb(223, 219, 18);
+    }
+    .hotel-menu .navbar-light .navbar-nav .nav-link {
+        color: #A98551;
+        text-transform: uppercase;
+    }
+
+    .checkBar .col1{
+        width: 20%;
+        float: left;
+    }
+    .input1{
+        position: relative;
+    }
+    .input1::after{
+                display: block;
+                position: absolute;
+                right: 20px;
+                top: 13px;
+                pointer-events: none;
+                content: "\f133";
+                font-family: "Font Awesome 5 Free";
+                font-size: 15px;
+                color: #aa8453;
+                line-height: 1;
+                opacity: 1;
+    }
+    .checkBar .col2{
+        width: 14%;
+        float: left;
+    }
+    .checkBar .col3{
+        width: 18%;
+        float: left;
+    }
+    .input1 input{
+        
+        box-shadow: none;
+    }
+    #hotel-menu{
+        background: url(../img/23232.jpg);
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        
+    }
+
+    .hotel-slide h1{
+        color: #A98551;
+        font-size: 55px;
+        font-weight: bold;
+        width: 50%;
+        margin: 0 auto;
+    }
+    .room-title h2{
+        color: #A98551;
+        text-transform: uppercase;
+    }
+    .room-title p{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .room-pic{
+        background: url(../img/GoldSmooth_HotelRoom_04_00.jpgAE387640-8ED2-4672-B02A-44DA675F5573Large.jpg);
+        height: 200px;
+    }
+    .price-tag{
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+    .details-option{
+        background-color: #A98551;
+        color: white;
+    }
+    #services{
+        background-color: #222222;
+        color: #fff;
+    }
+    .b-price{
+        color: #A98551;
+    }
+    .card-body{
+        background-color: #F8F5F0;
+    }
+
+    .slick-dots li button {
+        font-size: 0;
+        line-height: 0;
+        display: block;
+        width: 20px;
+        height: 20px;
+        padding: 5px;
+        cursor: pointer;
+        color: #A98551;
+        border: 0;
+        outline: none;
+        background: #A98551;
+        border-radius: 50%;
+    }
+
+    .slick-dots li.slick-active button:before {
+        background-color: #fff !important;
+        border-radius: 50%;
+    }
+    .b-price{
+        text-transform: capitalize;
+        letter-spacing: 10px;
+        padding: 20px 0;
+    }
+    
+    #footer{
+        background-color: #222222;
+    }
+    #footer .nav-link {
+        
+        color: #fff;
+        
+    }
+    .stickyTop{
+        position: fixed;
+        top: 0;
+        background-color: #222222;
+        width: 100%;
+        z-index: 100;
+        border-bottom: 1px solid #A98551;
+        margin-bottom: 20px;
+    }
+        .col3 input{
+            background-color: #A98551;
+            color: #fff;
+        }
+    @media (max-width:480px) {
+        .input1::after {
+            opacity: 0;
+        }
+    }
+
+
+       
